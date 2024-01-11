@@ -98,3 +98,40 @@
         }
     }
 }
+
+.circle6>span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.circle7 {
+    background-color: #b1b1b189;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.circle7 .circle7-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.circle8 {
+    width: 200px;
+    height: 200px;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    padding: 20px;
+    background-color: #ccc;
+}
